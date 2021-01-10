@@ -29,7 +29,23 @@ public class playerController : MonoBehaviour
         cc2D = gameObject.GetComponent<CapsuleCollider2D>();
         animator = GetComponentInChildren<Animator>();
     }
+    void OnGUI()
+    {
 
+        Event e = Event.current;
+
+        if (e.isKey)
+        {
+
+            string key = e.keyCode.ToString();
+
+            Debug.Log(key);
+
+            print("Hi");
+
+        }
+
+    }
     // Update is called once per frame
     void Update()
     {
@@ -83,7 +99,8 @@ public class playerController : MonoBehaviour
             }
 
             // jump player
-            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+            // /*Input.GetKeyDown(KeyCode.Space)*/
+            if ( Input.GetButtonDown("Jump") && IsGrounded())
             {
                 jumpAudio.Play();
                 rb2D.velocity = Vector2.up * jumpForce;
