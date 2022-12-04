@@ -24,6 +24,8 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -42,6 +44,10 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -75,7 +81,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -99,7 +104,6 @@ ScriptedImporter:
       width: 5120
       height: 72
     spriteID: 2d12f33fe15ab6347883f712e74f6b3e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -121,7 +125,6 @@ ScriptedImporter:
       width: 5120
       height: 316
     spriteID: 47290a8031c0cec4684c835e1ab843ca
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -143,7 +146,6 @@ ScriptedImporter:
       width: 5120
       height: 491
     spriteID: 201c4376e395e2c4eac365c8515dccfd
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -165,7 +167,6 @@ ScriptedImporter:
       width: 5120
       height: 720
     spriteID: 924c5b677ed0cb84db5bf60c0251a3c7
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -175,6 +176,19 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
   platformSettings:
   - name: Default
     overridden: 1
@@ -188,30 +202,31 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   mosaicLayers: 1
+  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 8192
-  importedTextureHeight: 2048
-  documentSize: {x: 5120, y: 720}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 8192
-  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Scene
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 3d124b97b1b5f5c4aaa7163211b66a4d
     layerID: 12
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Foreground
     spriteName: Foreground
     isGroup: 0
@@ -219,6 +234,9 @@ ScriptedImporter:
     spriteID: 2d12f33fe15ab6347883f712e74f6b3e
     layerID: 11
     mosaicPosition: {x: 4, y: 1555}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Near Hills (NH)
     spriteName: Near Hills (NH)
     isGroup: 0
@@ -226,6 +244,9 @@ ScriptedImporter:
     spriteID: 47290a8031c0cec4684c835e1ab843ca
     layerID: 8
     mosaicPosition: {x: 4, y: 1231}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Far Mountains (FM)
     spriteName: Far Mountains (FM)
     isGroup: 0
@@ -233,6 +254,9 @@ ScriptedImporter:
     spriteID: 201c4376e395e2c4eac365c8515dccfd
     layerID: 5
     mosaicPosition: {x: 4, y: 732}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Sky
     spriteName: Sky
     isGroup: 0
@@ -240,13 +264,14 @@ ScriptedImporter:
     spriteID: 924c5b677ed0cb84db5bf60c0251a3c7
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Background Texture
   prefabAssetName: Background Prefab
   spriteLibAssetName: Background Sprite Lib
+  skeletonAssetName: 
   secondarySpriteTextures: []
